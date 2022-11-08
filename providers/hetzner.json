@@ -1,0 +1,168 @@
+{
+  "server": {
+    "id": null,
+    "name": null,
+    "status": "initializing",
+    "created": "2022-05-30T20:43:21+00:00",
+    "public_net": {
+      "ipv4": {
+        "ip": "135.181.107.191",
+        "blocked": false,
+        "dns_ptr": "static.191.107.181.135.clients.your-server.de",
+        "id": 7608345
+      },
+      "ipv6": {
+        "ip": "2a01:4f9:c011:5730::/64",
+        "blocked": false,
+        "dns_ptr": [],
+        "id": 7608351
+      },
+      "floating_ips": [],
+      "firewalls": []
+    },
+    "private_net": [],
+    "server_type": {
+      "id": 1,
+      "name": "cx11",
+      "description": "CX11",
+      "cores": 1,
+      "memory": 2.0,
+      "disk": 20,
+      "deprecated": null,
+      "prices": [
+        {
+          "location": "hel1",
+          "price_hourly": {
+            "net": "0.0055000000",
+            "gross": "0.0065450000000000"
+          },
+          "price_monthly": {
+            "net": "3.4900000000",
+            "gross": "4.1531000000000000"
+          }
+        },
+        {
+          "location": "nbg1",
+          "price_hourly": {
+            "net": "0.0055000000",
+            "gross": "0.0065450000000000"
+          },
+          "price_monthly": {
+            "net": "3.4900000000",
+            "gross": "4.1531000000000000"
+          }
+        },
+        {
+          "location": "fsn1",
+          "price_hourly": {
+            "net": "0.0055000000",
+            "gross": "0.0065450000000000"
+          },
+          "price_monthly": {
+            "net": "3.4900000000",
+            "gross": "4.1531000000000000"
+          }
+        }
+      ],
+      "storage_type": "local",
+      "cpu_type": "shared"
+    },
+    "datacenter": {
+      "id": 3,
+      "name": "hel1-dc2",
+      "description": "Helsinki 1 DC 2",
+      "location": {
+        "id": 3,
+        "name": "hel1",
+        "description": "Helsinki DC Park 1",
+        "country": "FI",
+        "city": "Helsinki",
+        "latitude": 60.169855,
+        "longitude": 24.938379,
+        "network_zone": "eu-central"
+      },
+      "server_types": {
+        "supported": [
+			null
+        ],
+        "available": [
+          null
+        ],
+        "available_for_migration": [
+          null
+        ]
+      }
+    },
+    "image": {
+      "id": 45557056,
+      "type": "system",
+      "status": "available",
+      "name": "debian-11",
+      "description": "Debian 11",
+      "image_size": null,
+      "disk_size": 5,
+      "created": "2021-08-16T11:12:01+00:00",
+      "created_from": null,
+      "bound_to": null,
+      "os_flavor": "debian",
+      "os_version": "11",
+      "rapid_deploy": true,
+      "protection": {
+        "delete": false
+      },
+      "deprecated": null,
+      "labels": {},
+      "deleted": null
+    },
+    "iso": null,
+    "rescue_enabled": false,
+    "locked": false,
+    "backup_window": null,
+    "outgoing_traffic": null,
+    "ingoing_traffic": null,
+    "included_traffic": 21990232555520,
+    "protection": {
+      "delete": false,
+      "rebuild": false
+    },
+    "labels": {},
+    "volumes": [],
+    "load_balancers": [],
+    "network_type": "classless_ovs",
+    "primary_disk_size": 20,
+    "placement_group": null
+  },
+  "action": {
+    "id": 495171846,
+    "command": "create_server",
+    "status": "running",
+    "progress": 0,
+    "started": "2022-05-30T20:43:21+00:00",
+    "finished": null,
+    "resources": [
+      {
+        "id": 20901860,
+        "type": "server"
+      }
+    ],
+    "error": null
+  },
+  "next_actions": [
+    {
+      "id": 495171845,
+      "command": "start_server",
+      "status": "running",
+      "progress": 0,
+      "started": "2022-05-30T20:43:21+00:00",
+      "finished": null,
+      "resources": [
+        {
+          "id": 20901860,
+          "type": "server"
+        }
+      ],
+      "error": null
+    }
+  ],
+  "root_password": null
+}

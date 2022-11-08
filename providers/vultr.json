@@ -1,0 +1,36 @@
+{
+    "instance": {
+        "id": "65a9407e-971a-4f71-8d2b-35a67252d12b",
+        "os": "Debian 11 x64 (bullseye)",
+        "ram": 16384,
+        "disk": 0,
+        "main_ip": "0.0.0.0",
+        "vcpu_count": 6,
+        "region": "ewr",
+        "plan": "vc2-6c-16gb",
+        "date_created": "2022-06-01T20:02:23+00:00",
+        "status": "pending",
+        "allowed_bandwidth": 5000,
+        "netmask_v4": "",
+        "gateway_v4": "0.0.0.0",
+        "power_status": "running",
+        "server_status": "none",
+        "v6_network": "",
+        "v6_main_ip": "",
+        "v6_network_size": 0,
+        "label": "myhostname",
+        "internal_ip": "",
+        "kvm": "",
+        "hostname": "myhostname",
+        "tag": "",
+        "tags": [],
+        "os_id": 477,
+        "app_id": 0,
+        "image_id": "",
+        "firewall_group_id": "",
+        "features": [
+            "auto_backups"
+        ],
+        "default_password": "Z3u%,Q-znQ}LH*T{"
+    }
+}
